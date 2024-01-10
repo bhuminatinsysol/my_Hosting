@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <div align="center">
+    <form style="width:700px; background-color:rgb(191, 247, 228);border-style:solid; padding:20px 20px 20px 20px;" autocomplete="on">
+        <table  style="width:700px">
+            <tr>
+                <td colspan="3" style="width: 100%;"><h1>Job Application</h1></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="width: 100%; height:50px"><label class="bld_label">Please complete the form below to apply for a position with us.</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><label class="bld_label"> Full Name</label></td>
+            </tr>
+            <tr>
+                <td><input  style="width: 97%;" type="text" id="fname" name="firstname"></td>
+                <td><input style="width: 97%;" type="text" id="mname" name="middlename"></td>
+                <td><input style="width: 97%;" type="text" id="lname" name="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><label for="mname">Middle Name</label></td>
+                <td><label for="lname">Last Name</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><label class="bld_label">Birth Date</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="Month" id="mnt" style="width: 99%;">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Date" id="dt" style="width: 99%;">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Year" id="yr" style="width: 99%;">
+                        <option>2023</option>
+                        <option>2022</option>
+                        <option>2021</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mnt">Month</label></td>
+                <td><label for="dt">Date</label></td>
+                <td><label for="yr">Year</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><label class="bld_label">Current Address</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input style="width: 99%;" id="stadr"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><label for="stadr">Street Address</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input style="width: 99%;" id="stadr2"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><label for="stadr2">Street Address Line2</label></td>
+            </tr>
+            </table>
+            <table  style="width:700px">
+                <tr>
+                    <td><input style="width: 98%;" id="city"></td>
+                    <td><input style="width: 98%;" id="state"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><label for="state">State/Province</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input style="width: 99%;" type="number" id="pstcd"><br></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="pstcd">Postal/Zip Code</label></td>
+                </tr>
+                <tr>
+                    <td><label class="bld_label">Email Address</label></td>
+                    <td><label class="bld_label">Phone Number</label></td>
+                </tr>
+                <tr>
+                    <td><input style="width: 98%;" id="emad" type="email"></td>
+                    <td><input style="width: 98%;" id="phnum" type="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="emad">example@example.com</label></td>
+                </tr>
+                <tr>
+                    <td><label class="bld_label">Linkedin</label></td>
+                </tr>
+                <tr>
+                    <td><input style="width: 98%;" type="url"></td>
+                </tr>
+                <tr>
+                    <td><label class="bld_label">Position applied</label></td>
+                    <td><label class="bld_label">How did you hear about us</label></td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <select value="Please Select" style="width: 100%;">
+                            <option>Senior Engineer</option>
+                            <option>Junior Engineer</option>
+                            <option>Trainee Engineer</option>
+                            <option>Testing Engineer</option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <select value="Please Select" style="width: 100%;">
+                            <option>Friend</option>
+                            <option>Google</option>
+                            <option>Social Media</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label style="width: 98%;" class="bld_label">Please Specify</label></td>
+                    <td><label style="width: 98%;" class="bld_label">Available Start Date</label></td>
+                </tr>
+                <tr>
+                    <td><input style="width: 98%;" type="text"></td>
+                    <td><input style="width: 98%;" type="date"></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" style="width: 100%;"><label class="bld_label">Upload Your Resume</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="width: 100%; height:100px; border-style:dashed; border-width:2px;" align="center"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="width: 100%;"><label class="bld_label">Cover Letter</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="width: 100%;"><textarea name="abtus" id="" cols="96" rows="10"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"align="center"><input style="width:100px; height:35px; background-color:black; color:white; font-size:medium;" type="button" value="Apply"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
